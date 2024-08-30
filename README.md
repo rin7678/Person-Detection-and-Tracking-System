@@ -15,38 +15,28 @@ This project is designed to detect and track people (specifically children and t
 ## Installation
 
 ### What You Need
-- Python 3.x installed on your computer
-- pip (a tool to install Python packages)
+- Googlecolab
 
 ### Installing the Required Packages
-To install everything you need, run this command:
-
-```bash
-pip install -r requirements.txt
-```
-
-Or you can install the packages one by one:
-
-```bash
-pip install deep-sort-realtime ultralytics opencv-python torch torchvision torchaudio filterpy
-```
+you can install the packages one by one as provided in googlecolab notebook.
+You only need to just run each cell one by one.
 
 ## How to Use
 
 1. **Download the project:**
     ```bash
-    git clone <your-repository-link>
-    cd <your-repository-name>
+    download Right_code.ipynb file provided inside the .zip
+    upload ABA Therapy.mp4 to googlecolab files
     ```
 
 2. **Run the code:**
-    Open the Jupyter Notebook file `Right_code.ipynb` and run the code cells in order. The code will:
+    Open the Colab Notebook file `Right_code.ipynb` and run the code cells in order. The code will:
     - Use a pre-trained model to detect people in the video.
     - Track the people throughout the video.
     - Save the video with each person labeled by a unique ID.
 
 3. **Input Video:**
-    - Place the video you want to process in the same folder as the notebook, or update the video path in the notebook.
+    - Place the video you want to process in the same folder as the notebook, for e.g. I've placed my .mp4 video in colab notebook directory, or update the video path in the notebook.
 
 4. **Output Video:**
     - The processed video will be saved as `output.avi` in the current folder.
@@ -55,9 +45,10 @@ pip install deep-sort-realtime ultralytics opencv-python torch torchvision torch
 
 ```bash
 .
-├── Right_code.ipynb        # The main code in a Jupyter Notebook
-├── requirements.txt        # List of Python packages you need
-└── README.md               # This file
+├── README.md               # This file
+├── Right_code.ipynb        # The main code 
+├── AB Therapy.mp4          # Test Video
+└── output.avi              # output video
 ```
 
 ## How It Works
