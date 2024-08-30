@@ -11,7 +11,6 @@ This project is designed to detect and track people (specifically children and t
 - [Features](#features)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -83,6 +82,3 @@ The final result is a video (`output.avi`) that shows each person with their uni
 
 If you want to help improve this project, you can fork the repository and make your changes. Pull requests are welcome!
 
-## License
-
-This project is under the MIT License. You can find more details in the [LICENSE](LICENSE) file.
